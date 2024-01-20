@@ -10,3 +10,7 @@ A sandbox repo to make sure as many people as possible use Git in their developm
 - git push 
 - git remote add [branch_name]
 
+#### Commit hashes
+Every commit is identified by a unique hash ID	
+
+
