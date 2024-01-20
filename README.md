@@ -21,3 +21,9 @@ Untracked - the file is present in the directory but not being tracked by Git
 New - file is new in the directory and added to the staged area for the first time
 Modified - file modified in compasion to the last commit or staging action AND not added to the current's commit staging area
 Staged - file staged for commit
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged -- "git commit" --> tracked/commited;
+```
